@@ -1,0 +1,15 @@
+{
+  "name": "semana-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/app_41.js",
+  "scripts": {
+    "test": "node backend/app_41.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
