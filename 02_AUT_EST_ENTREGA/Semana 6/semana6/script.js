@@ -14,12 +14,12 @@ $(document).ready(function(){
     }, function(){  
         $(this).css("color", "black");  
     });
-    $("img").hover(function(){ 
+    $("#lucas").hover(function(){ 
         $(this).css("border", "5px solid blue"); 
     }, function(){ 
         $(this).css("border", "none"); 
     });
-    $("img").click(function(){
+    $("#lucas").click(function(){
         if (!isImageShrunk) {  // Se a imagem não estiver encolhida...
             $(this).animate({width: '50%'});  // ... então a encolha...
             isImageShrunk = true;  // ... e marque que ela está encolhida
